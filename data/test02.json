@@ -1,0 +1,120 @@
+{
+    "QQ登录": [
+        {
+            "title": "正确的账号",
+            "cases": [
+                {
+                    "step": "打开登录页1",
+                    "x_y": [
+                        2,
+                        7
+                    ],
+                    "desc": [
+                        2,
+                        8
+                    ],
+                    "method": "geturl",
+                    "location": "https://i.qq.com/"
+                },
+                {
+                    "step": "切换frame1",
+                    "x_y": [
+                        3,
+                        7
+                    ],
+                    "desc": [
+                        3,
+                        8
+                    ],
+                    "method": "change_frame",
+                    "location": "login_frame"
+                },
+                {
+                    "step": "点击\"帐号密码登录1\"",
+                    "x_y": [
+                        4,
+                        7
+                    ],
+                    "desc": [
+                        4,
+                        8
+                    ],
+                    "method": "click_ele",
+                    "location": "//a[text()=\"帐号密码登录\"]"
+                },
+                {
+                    "step": "输入用户名1",
+                    "x_y": [
+                        5,
+                        7
+                    ],
+                    "desc": [
+                        5,
+                        8
+                    ],
+                    "method": "input_text",
+                    "location": "u",
+                    "params": "138{number}"
+                }
+            ]
+        },
+        {
+            "title": "错误的账号",
+            "cases": [
+                {
+                    "step": "打开登录页2",
+                    "x_y": [
+                        6,
+                        7
+                    ],
+                    "desc": [
+                        6,
+                        8
+                    ],
+                    "method": "geturl",
+                    "location": "https://i.qq.com/"
+                },
+                {
+                    "step": "切换frame2",
+                    "x_y": [
+                        7,
+                        7
+                    ],
+                    "desc": [
+                        7,
+                        8
+                    ],
+                    "method": "change_frame",
+                    "location": "login_frame"
+                },
+                {
+                    "step": "点击\"帐号密码登录2\"",
+                    "x_y": [
+                        8,
+                        7
+                    ],
+                    "desc": [
+                        8,
+                        8
+                    ],
+                    "method": "click_ele",
+                    "location": "//a[text()=\"帐号密码登录\"]"
+                },
+                {
+                    "step": "输入用户名2",
+                    "x_y": [
+                        9,
+                        7
+                    ],
+                    "desc": [
+                        9,
+                        8
+                    ],
+                    "method": "input_text",
+                    "location": "u",
+                    "params": "138{number}"
+                }
+            ]
+        }
+    ]
+}
